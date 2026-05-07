@@ -17,7 +17,7 @@ class Eskk(Completor):
         candidates = [{
             'word': candidate[b'word'],
             'abbr': candidate[b'abbr'],
-            'menu': b'[J]',
+            'menu': b'[SKK]',
         } for candidate in gather_candidates(0, bbase)]
         # candidates.sort(key=lambda x: x['abbr'])
         return candidates
